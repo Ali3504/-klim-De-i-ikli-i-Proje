@@ -1,0 +1,12 @@
+<!-- Kullanıcının verilerini çıktı olarak gösteren bir sayfa oluşturun -->
+<main>
+    {% block content %}
+    <h2>Form Sonuçları</h2>
+    <div class="result">
+        <p>Ad: {{ name }}</p>
+        <p>E-posta: {{ email }}</p>
+        <p>Adres: {{ address }}</p>
+        <p>Tarih: {{ date }}</p>
+    </div>
+    {% endblock %}
+</main>
